@@ -5,7 +5,7 @@ from services import (
 
 def menu():
     while True:
-        print("\n==== Programa CapCoins - Taggy Ambiental ====")
+        print("\n==== ECOMETRIC ====")
         print("1 - Listar Modelos")
         print("2 - Cadastrar Veículo")
         print("3 - Simular Economia de CO2")
