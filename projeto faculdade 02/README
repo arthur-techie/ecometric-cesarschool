@@ -1,0 +1,59 @@
+# 🌿 Programa Ecometric - Inteligência Ambiental Taggy
+
+O **Ecometric** é uma plataforma que transforma o uso de Tags em veículos numa estratégia de sustentabilidade mensurável. O sistema monitoriza a eficiência das passagens em pedágios e estacionamentos, convertendo a redução de emissões de CO₂ em benefícios reais para o utilizador e para o planeta.
+
+---
+
+## 🚀 Como Funciona?
+
+Ao utilizar a Taggy, o condutor evita as filas de paragem obrigatória. O **Ecometric** calcula a economia de combustível e de gases poluentes que seriam gerados no ciclo de "travar e arrancar". Esse impacto positivo é transformado em **EcoPoints** (a moeda do programa).
+
+### 💰 Como acumular pontos:
+1.  **Passagem em Portagem (Pedágio):** Ganhe **+5 pontos** por evitar a travagem e aceleração.
+2.  **Parques de Estacionamento:** Ganhe **+3 pontos** por eliminar o uso de papel (talões) e reduzir o tempo de espera.
+3.  **Bónus de Fidelidade:** O esforço contínuo é recompensado:
+    * **10 utilizações/mês:** +20 pontos de bónus.
+    * **20 utilizações/mês:** +50 pontos de bónus.
+    * **40 utilizações/mês:** +100 pontos de bónus.
+
+---
+
+## 🌍 Painel de Impacto Ambiental (Dashboard)
+
+O utilizador tem acesso a métricas claras sobre a sua contribuição:
+- **CO₂ Retido:** Quantidade exata de poluentes que não foram para a atmosfera.
+- **Poupança de Papel:** Tradução do CO₂ em número de folhas de papel que foram poupadas.
+- **Equivalência Florestal:** Indica o quanto a sua condução eficiente representa em termos de "árvores protegidas".
+
+---
+
+## 🎁 Catálogo de Recompensas Sustentáveis
+
+Os pontos acumulados no **Ecometric** podem ser trocados no nosso catálogo:
+- **100 pontos:** Doação para reflorestação (R$ 10).
+- **150 pontos:** Ecobag de algodão orgânico ou Desconto em lavagem ecológica.
+- **200 pontos:** Créditos para mobilidade suave (Bicicletas partilhadas).
+- **300 pontos:** Plantio de 1 árvore com certificado de geolocalização.
+- **400 pontos:** Cabaz de produtos de agricultura biológica.
+
+---
+
+## 🛠️ Estrutura do Projeto
+
+- `main.py`: Interface de consola para o utilizador.
+- `services.py`: Lógica de cálculo de emissões e regras de pontuação.
+- `models.py`: Organização das tabelas de dados (veículos, pontos e catálogo).
+- `seed.py`: Preparação inicial do ambiente (carros e prémios).
+- `database.py`: Gestor da base de dados SQLite.
+
+---
+
+## 🚥 Instruções de Utilização
+
+1.  **Configuração:** Execute o `seed.py` para carregar a base de dados pela primeira vez.
+2.  **Execução:** Inicie o `main.py`.
+3.  **Registo:** Cadastre o seu veículo (Placa e Modelo).
+4.  **Monitorização:** Registe as suas passagens reais ou simuladas e veja o seu impacto crescer no Painel de Utilizador!
+
+---
+*Ecometric: Tecnologia a favor de um futuro mais verde.*
