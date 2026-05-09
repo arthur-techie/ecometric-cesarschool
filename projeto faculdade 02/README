@@ -1,59 +1,73 @@
-# 🌿 Programa Ecometric - Inteligência Ambiental Taggy
+# Programa Ecometric - Inteligência Ambiental Taggy
 
-O **Ecometric** é uma plataforma que transforma o uso de Tags em veículos numa estratégia de sustentabilidade mensurável. O sistema monitoriza a eficiência das passagens em pedágios e estacionamentos, convertendo a redução de emissões de CO₂ em benefícios reais para o utilizador e para o planeta.
-
----
-
-## 🚀 Como Funciona?
-
-Ao utilizar a Taggy, o condutor evita as filas de paragem obrigatória. O **Ecometric** calcula a economia de combustível e de gases poluentes que seriam gerados no ciclo de "travar e arrancar". Esse impacto positivo é transformado em **EcoPoints** (a moeda do programa).
-
-### 💰 Como acumular pontos:
-1.  **Passagem em Portagem (Pedágio):** Ganhe **+5 pontos** por evitar a travagem e aceleração.
-2.  **Parques de Estacionamento:** Ganhe **+3 pontos** por eliminar o uso de papel (talões) e reduzir o tempo de espera.
-3.  **Bónus de Fidelidade:** O esforço contínuo é recompensado:
-    * **10 utilizações/mês:** +20 pontos de bónus.
-    * **20 utilizações/mês:** +50 pontos de bónus.
-    * **40 utilizações/mês:** +100 pontos de bónus.
+O **Ecometric** é uma plataforma que transforma o uso de tags em veículos em uma estratégia de sustentabilidade mensurável. O sistema monitora a eficiência das passagens em pedágios e estacionamentos, convertendo a redução de emissões de CO₂ em benefícios reais para o usuário e para o meio ambiente.
 
 ---
 
-## 🌍 Painel de Impacto Ambiental (Dashboard)
+## Como funciona
 
-O utilizador tem acesso a métricas claras sobre a sua contribuição:
-- **CO₂ Retido:** Quantidade exata de poluentes que não foram para a atmosfera.
-- **Poupança de Papel:** Tradução do CO₂ em número de folhas de papel que foram poupadas.
-- **Equivalência Florestal:** Indica o quanto a sua condução eficiente representa em termos de "árvores protegidas".
+Ao utilizar a Taggy, o condutor evita paradas obrigatórias. O Ecometric calcula a economia de combustível e de gases poluentes que seriam gerados no processo de frenagem e aceleração.
 
----
+Esse impacto ambiental positivo é convertido em **EcoPoints**, a moeda do programa.
 
-## 🎁 Catálogo de Recompensas Sustentáveis
+### Acúmulo de pontos
 
-Os pontos acumulados no **Ecometric** podem ser trocados no nosso catálogo:
-- **100 pontos:** Doação para reflorestação (R$ 10).
-- **150 pontos:** Ecobag de algodão orgânico ou Desconto em lavagem ecológica.
-- **200 pontos:** Créditos para mobilidade suave (Bicicletas partilhadas).
-- **300 pontos:** Plantio de 1 árvore com certificado de geolocalização.
-- **400 pontos:** Cabaz de produtos de agricultura biológica.
+- Passagem em pedágios: +5 pontos por passagem sem parada
+- Estacionamentos: +3 pontos por eliminação de tickets físicos e redução de tempo de espera
 
----
+### Bônus de fidelidade
 
-## 🛠️ Estrutura do Projeto
-
-- `main.py`: Interface de consola para o utilizador.
-- `services.py`: Lógica de cálculo de emissões e regras de pontuação.
-- `models.py`: Organização das tabelas de dados (veículos, pontos e catálogo).
-- `seed.py`: Preparação inicial do ambiente (carros e prémios).
-- `database.py`: Gestor da base de dados SQLite.
+- 10 utilizações no mês: +20 pontos
+- 20 utilizações no mês: +50 pontos
+- 40 utilizações no mês: +100 pontos
 
 ---
 
-## 🚥 Instruções de Utilização
+## Painel de impacto ambiental
 
-1.  **Configuração:** Execute o `seed.py` para carregar a base de dados pela primeira vez.
-2.  **Execução:** Inicie o `main.py`.
-3.  **Registo:** Cadastre o seu veículo (Placa e Modelo).
-4.  **Monitorização:** Registe as suas passagens reais ou simuladas e veja o seu impacto crescer no Painel de Utilizador!
+O usuário pode acompanhar seu impacto ambiental por meio de métricas:
+
+- CO₂ evitado: estimativa de emissões que deixaram de ser geradas
+- Economia de papel: conversão do impacto em redução de consumo de papel
+- Equivalência florestal: estimativa do impacto positivo em termos ambientais (árvores preservadas)
 
 ---
-*Ecometric: Tecnologia a favor de um futuro mais verde.*
+
+## Catálogo de recompensas sustentáveis
+
+Os EcoPoints podem ser trocados por recompensas:
+
+- 100 pontos: doação para reflorestamento (R$ 10)
+- 150 pontos: ecobag de algodão orgânico ou desconto em lavagem ecológica
+- 200 pontos: créditos para mobilidade sustentável
+- 300 pontos: plantio de árvore com certificado
+- 400 pontos: cestas de produtos orgânicos
+
+---
+
+## Estrutura do projeto
+
+- `main.py`: interface principal do sistema
+- `services.py`: lógica de cálculo de emissões e regras de pontuação
+- `models.py`: modelagem de dados (veículos, pontos e catálogo)
+- `seed.py`: inicialização de dados base do sistema
+- `database.py`: gerenciamento da base de dados SQLite
+
+---
+
+## Como executar
+
+1. Execute o arquivo `seed.py` para inicializar o banco de dados
+2. Inicie o sistema pelo `main.py`
+3. Cadastre um veículo (placa e modelo)
+4. Registre passagens e acompanhe os resultados no painel
+
+---
+
+## Objetivo do projeto
+
+O Ecometric tem como objetivo simular a relação entre mobilidade urbana e impacto ambiental, promovendo consciência sobre emissões de CO₂ e incentivando práticas mais sustentáveis por meio de gamificação.
+
+---
+
+Ecometric - tecnologia aplicada à sustentabilidade e mobilidade inteligente.
