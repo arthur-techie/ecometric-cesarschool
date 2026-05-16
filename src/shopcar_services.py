@@ -7,7 +7,7 @@ from src.database import conectar
 # CONFIGURAÇÃO DA API
 # =========================================================
 
-BASE_URL = "https://api.shopcar.com.br"
+BASE_URL = "https://www.shopcar.com.br/"
 
 
 # =========================================================
